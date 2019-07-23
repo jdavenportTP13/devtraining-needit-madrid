@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Scheduled flow - weekly (Friday 11pm) to check for overdue NeedIt tasks and auto-close; create follow-up NeedIt task for Manager.</description>
+        <internal_name>scheduled_flow_for_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"425056f6-5c28-4775-92e9-92d75b56f2b1.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"425056f6-5c28-4775-92e9-92d75b56f2b1.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"997ce31b-d394-4af5-98c0-0977d8930336.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"997ce31b-d394-4af5-98c0-0977d8930336.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"997ce31b-d394-4af5-98c0-0977d8930336.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"7daec938-97ec-4664-be65-5da3259090d4.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"348f2684-0246-4c3e-a5cc-ea69d2ef3bc1.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"18a2055e-bb31-4ea8-b097-7a12c445e192.calculated_date","label":"1➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"}]</label_cache>
+        <latest_snapshot>78e3b1c64fba3700375aa7d18110c746</latest_snapshot>
+        <master_snapshot>78e3b1c64fba3700375aa7d18110c746</master_snapshot>
+        <name>Scheduled Flow for overdue NeedIt tasks</name>
+        <outputs/>
+        <remote_trigger_id>8de3b1c64fba3700375aa7d18110c7be</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jdavenport</sys_created_by>
+        <sys_created_on>2019-07-23 20:43:42</sys_created_on>
+        <sys_id>feec2d024fba3700375aa7d18110c73c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Scheduled Flow for overdue NeedIt tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_feec2d024fba3700375aa7d18110c73c</sys_update_name>
+        <sys_updated_by>jdavenport</sys_updated_by>
+        <sys_updated_on>2019-07-23 21:14:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=feec2d024fba3700375aa7d18110c73c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=feec2d024fba3700375aa7d18110c73c"/>
+</record_update>
