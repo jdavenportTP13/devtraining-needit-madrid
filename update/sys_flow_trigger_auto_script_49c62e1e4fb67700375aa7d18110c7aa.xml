@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_auto_script">
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Trigger:05c62e1e4fb67700375aa7d18110c7aa</name>
+        <run_as display_value="Jerrod Davenport">588aef824f203200375aa7d18110c7a3</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2019-08-02 17:00:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('05c62e1e4fb67700375aa7d18110c7aa');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>jdavenport</sys_created_by>
+        <sys_created_on>2019-07-24 19:34:54</sys_created_on>
+        <sys_id>49c62e1e4fb67700375aa7d18110c7aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trigger:05c62e1e4fb67700375aa7d18110c7aa</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_flow_trigger_auto_script_49c62e1e4fb67700375aa7d18110c7aa</sys_update_name>
+        <sys_updated_by>jdavenport</sys_updated_by>
+        <sys_updated_on>2019-07-24 19:34:54</sys_updated_on>
+        <trigger display_value="">05c62e1e4fb67700375aa7d18110c7aa</trigger>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+</record_update>
