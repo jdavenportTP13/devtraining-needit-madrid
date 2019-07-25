@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="needit_staging" max_length="40" name="x_58872_needit_needit_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=A" label="A" max_length="40" name="u_a" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E" label="E" max_length="40" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Human Resources" label="Human Resources" max_length="40" name="u_human_resources" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Human Resources 1" label="Human Resources 1" max_length="40" name="u_human_resources_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Requested" label="Requested" max_length="40" name="u_requested" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=-- None --" label="-- None --" max_length="40" name="u____none___" type="string"/>
+    </element>
+</database>
