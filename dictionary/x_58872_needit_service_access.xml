@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Service Access" max_length="40" name="x_58872_needit_service_access" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="System" mandatory="true" max_length="32" name="system" reference="cmdb_ci" reference_qual="sys_class_name=cmdb_ci_service^EQ" reference_qual_condition="sys_class_name=cmdb_ci_service^EQ" type="reference"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

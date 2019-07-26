@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="access_level" table="x_58872_needit_service_access_levels" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E-mail</label>
+            <language>en</language>
+            <name>x_58872_needit_service_access_levels</name>
+            <sequence/>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:38:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f49ad73e4f3eb700375aa7d18110c707</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:38:14</sys_updated_on>
+            <value>e-mail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Services Super User</label>
+            <language>en</language>
+            <name>x_58872_needit_service_access_levels</name>
+            <sequence/>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:38:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80ba1b3e4f3eb700375aa7d18110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:38:44</sys_updated_on>
+            <value>information services super user</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internet</label>
+            <language>en</language>
+            <name>x_58872_needit_service_access_levels</name>
+            <sequence/>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:37:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>116a53fa4f3eb700375aa7d18110c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:37:27</sys_updated_on>
+            <value>internet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Novell Network Access</label>
+            <language>en</language>
+            <name>x_58872_needit_service_access_levels</name>
+            <sequence/>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:37:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43d9dffa4f3eb700375aa7d18110c7a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:37:14</sys_updated_on>
+            <value>novell network access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SameAsUser</label>
+            <language>en</language>
+            <name>x_58872_needit_service_access_levels</name>
+            <sequence/>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:39:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1acadffa4f3eb700375aa7d18110c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:39:09</sys_updated_on>
+            <value>sameasuser</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEC View Only - Service Center</label>
+            <language>en</language>
+            <name>x_58872_needit_service_access_levels</name>
+            <sequence/>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:37:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a48a1b764f3eb700375aa7d18110c7c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:37:56</sys_updated_on>
+            <value>sec view only - service center</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>access_level</element>
+            <name>x_58872_needit_service_access_levels</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jdavenport</sys_created_by>
+            <sys_created_on>2019-07-26 12:37:14</sys_created_on>
+            <sys_id>125a53fa4f3eb700375aa7d18110c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>access_level</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_service_access_levels_access_level</sys_update_name>
+            <sys_updated_by>jdavenport</sys_updated_by>
+            <sys_updated_on>2019-07-26 12:37:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
